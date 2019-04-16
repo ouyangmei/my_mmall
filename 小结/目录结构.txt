@@ -1,0 +1,5 @@
+util存放工具类
+
+pojo通过vo进行封装，然后传给controller
+
+mybatis三剑客：mybatis-generator
