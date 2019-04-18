@@ -2,4 +2,17 @@ util存放工具类
 
 pojo通过vo进行封装，然后传给controller
 
-mybatis三剑客：mybatis-generator
+mybatis三剑客：
+1...mybatis-generator自动生成dao,pojo,xml,mapper文件
+
+先加载插件位置
+<plugins>
+      <plugin>
+        <groupId>org.mybatis.generator</groupId>
+        <artifactId>mybatis-generator-maven-plugin</artifactId>
+        <version>1.3.2</version>
+        <configuration>
+          <verbose>true</verbose>
+          <overwrite>true</overwrite>
+        </configuration>
+ </plugin>
